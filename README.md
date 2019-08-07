@@ -2,8 +2,8 @@
 Selenoid manager
 1) Create lambda function, use sgChanger like source.
 2) Create IAM role and policy, associate this with lambda fucntion. Specify which sg will be changed thru this lambda:
-{
 ```
+# {
 #     "Version": "2012-10-17",
 #     "Statement": [
 #         {
