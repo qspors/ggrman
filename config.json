@@ -1,0 +1,40 @@
+{
+    "REGION_NAME": "us-east-1",
+    "CONFIG_PATH": "/etc/grid-router/quota/",
+    "CONFIG_NAME": "test.xml",
+    "TASKS_COUNT": "5",
+    "PASSWORD": "XXXXXXXXXX",
+    "NAMESPACE": "selenoid-process.env.ENV",
+    "BROWSER_NAME": "chrome",
+    "BROWSER_VER": "76.0",
+    "SELENOID_PORT": "4444",
+    "TIME_OUT_SEC": "55",
+    "CLUSTER_NAME": "SelenoidCluster-process.env.ENV",
+    "GGR_SERVICE_NAME": "ServiceGGR-process.env.ENV",
+    "GGRUI_SERVICE_NAME": "ServiceGGRUI-process.env.ENV",
+    "TAG_NAME": "corp-process.env.ENV-selenoidfat",
+    "SECURITY_GROUPS" : {
+        "dev" : {
+            "sg_ids" : ["sg-xxxxxxxxxxxxx"],
+            "sg_names" : ["selenoid-common-sg"],
+            "api_url": "https://xxxxxxxxx.execute-api.us-east-1.amazonaws.com/process.env.ENV/sgchange",
+            "api_x_key": "xXxXxXxXxXxXxXxXxXxXxXxXxXxX",
+            "port_from" : 0,
+            "port_to": 65535,
+            "proto" : "tcp",
+            "host" :  "XXXXXXXXXXXXXXX.execute-api.us-east-1.amazonaws.com"
+        },
+        "prd" : {
+            "sg_ids" : ["sg-xxxxxxxxxxxxxxxx","sg-xxxxxxxxxxxxxxxxxx"],
+            "sg_names" : ["selenoid-dev-sg","selenoid-qa-sg"],
+            "api_url": "https://xxxxxxxxxxxxx.execute-api.us-east-1.amazonaws.com/process.env.ENV/sgchange",
+            "api_x_key": "xxxxxxxxxxXxxXXxxxXXxXXxxxxxxxXXXX",
+            "port_from" : 0,
+            "port_to": 65535,
+            "proto" : "tcp",
+            "host" : "XxXxXxxxxxxxxXXXxx.execute-api.us-east-1.amazonaws.com"
+        }
+    },
+    "ENVS" :["dev","prd"],
+    "JENKINS_IP" : "xx.xx.xx.xx"
+}
