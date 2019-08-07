@@ -1,5 +1,10 @@
 # ggrman
 Selenoid manager
+## Description.
+This scripts updating selenoid config and propogate this config for grid control and gridcontrol ui.
+Optionally fwmodule changing your SG for access from AWS EC2 instances where working your docker containers to WEB resourse which you testing.
+You can use CloudFormation template for spin-up new envinroment based on AWS ECS, for keeping Docker images please use ECR.
+## Installation
 1) Create lambda function, use sgChanger like source.
 2) Create IAM role and policy, associate this with lambda fucntion. Specify which sg will be changed thru this lambda:
 ```
