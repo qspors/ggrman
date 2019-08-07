@@ -1,5 +1,5 @@
 # ggrman
-Selenoid manager
+Selenoid manager for AWS ECS
 ## Description.
 This scripts updating selenoid config and propogate this config for grid control and gridcontrol ui.
 Optionally fwmodule changing your SG for access from AWS EC2 instances where working your docker containers to WEB resourse which you testing.
