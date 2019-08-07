@@ -40,6 +40,6 @@ Selenoid manager
 8) Build new envinronment thru CF.
 
 ## This is alpha version, py modules is not optimized and under revision.
-# You use this solution at one's own risk.
-All questions thru email: qspors@gmail.com
+## You use this solution at one's own risk.
+### All questions thru email: qspors@gmail.com
     
