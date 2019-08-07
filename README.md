@@ -39,4 +39,6 @@ Selenoid manager
 7) Examine cloudformation template and replace options and env variables if needed.
 8) Build new envinronment thru CF.
 
+This is alpha version, py modules is not optimized and under revision.
+You use this solution at one's own risk.
     
