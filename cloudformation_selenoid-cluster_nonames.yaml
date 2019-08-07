@@ -1,0 +1,1491 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    d341fa70-5f84-49ed-a05a-7b4fc5e12809:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1620
+        'y': 30
+      z: 1
+      embeds: []
+      dependson:
+        - b12d8135-e04d-4b86-9f18-30cd077a44fa
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+    2ab321d7-f41f-4b84-b13a-1cede5672092:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 760
+        'y': 60
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 90f87380-9eaa-4714-865d-f4821f8319d9
+        - 10a4a860-e61b-4312-beb1-414df406f943
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+        - 82a64c60-e9b1-4128-acad-47289a26edb1
+        - 92da5613-cf65-4cd8-9c43-256f965a4b35
+    90f87380-9eaa-4714-865d-f4821f8319d9:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 580
+        'y': 350
+      z: 1
+      embeds: []
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    9790ef12-9702-48ce-a36b-42032fd1437c:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 480
+        'y': 720
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - cfc423d5-7067-4f9f-a156-e990ea59e951
+    0c8c41be-04a5-4e23-ad73-c99ef50fca38:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1050
+        'y': 720
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 9790ef12-9702-48ce-a36b-42032fd1437c
+        - 92da5613-cf65-4cd8-9c43-256f965a4b35
+      iscontainedinside:
+        - 32f5c46d-f30e-4932-b349-133fa31c509b
+        - 1995e47a-1213-4e7b-a083-62f5a82a90f4
+    3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1400
+        'y': 370
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - cfc423d5-7067-4f9f-a156-e990ea59e951
+      iscontainedinside:
+        - 32f5c46d-f30e-4932-b349-133fa31c509b
+        - 1995e47a-1213-4e7b-a083-62f5a82a90f4
+      dependson:
+        - d341fa70-5f84-49ed-a05a-7b4fc5e12809
+    cfc423d5-7067-4f9f-a156-e990ea59e951:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 860
+        'y': 560
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+    92da5613-cf65-4cd8-9c43-256f965a4b35:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 980
+        'y': 60
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    15920d01-1839-42b8-86cd-fa628ea80da9:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1250
+        'y': 430
+      z: 1
+      embeds: []
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    10a4a860-e61b-4312-beb1-214df406f943:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 320
+        'y': -40
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    10a4a860-e61b-2312-beb1-214df406f943:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 90
+      z: 1
+      embeds: []
+    858d4ae8-4fc6-43fe-90b2-f42d6797adca:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 360
+        'y': 150
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    fa81de61-3e60-4fd1-a3d0-47b0b11db62b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 30
+        'y': 150
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    997c8ddb-b9dd-4471-ab5e-7a7c51d438da:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 360
+        'y': 90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    63fba481-db6f-4b57-9425-6914d4d677ad:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 30
+        'y': 90
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    21ee151d-6e7d-4b02-8dbf-a8ec6414f9b6:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 360
+        'y': 240
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    dbc82992-450e-4f0d-b430-b7470145e093:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 30
+        'y': 240
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    f22945ee-5647-42c4-8513-28f519e3f34e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 330
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 10a4a860-e61b-2312-beb1-214df406f943
+    a7675700-1ab0-48d4-9ceb-cf5cd6465c57:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 760
+        'y': -150
+      z: 1
+      embeds: []
+    7c199023-3531-4cdf-8c9c-aedcbdd5b10a:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 2420
+        'y': -150
+      z: 1
+      embeds: []
+    0b2ccb39-77ec-4a05-8294-2febf8790680:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 2200
+        'y': 340
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - 62e30936-4699-4199-be48-4b24e8f77587
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+        - 92da5613-cf65-4cd8-9c43-256f965a4b35
+        - 82a64c60-e9b1-4128-acad-47289a26edb1
+    62e30936-4699-4199-be48-4b24e8f77587:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 2010
+        'y': 240
+      z: 1
+      embeds: []
+    23147bc1-5122-40f1-8e3e-eafbe69c3ded:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1890
+        'y': 210
+      z: 1
+      embeds: []
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    82a64c60-e9b1-4128-acad-47289a26edb1:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 2080
+        'y': -60
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+      dependson:
+        - 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    7988f9e8-2d6e-414c-8000-14aaceba6533:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1400
+        'y': 630
+      z: 1
+      embeds: []
+    4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 2370
+        'y': 60
+      z: 1
+      embeds: []
+    32f5c46d-f30e-4932-b349-133fa31c509b:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 2670
+        'y': 270
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+    1995e47a-1213-4e7b-a083-62f5a82a90f4:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 2670
+        'y': 150
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+    309fd17c-545b-4101-b581-e2f7a8cf34c9:
+      size:
+        width: 150
+        height: 150
+      position:
+        x: 2940
+        'y': 90
+      z: 1
+      embeds: []
+      iscontainedinside:
+        - 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+    af7c6a35-b740-4cb0-b752-4f3f2efa60d3:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 2420
+        'y': 340
+      z: 1
+      embeds: []
+    ace6a1cc-63af-47d8-b255-705dc7ba5641:
+      source:
+        id: 309fd17c-545b-4101-b581-e2f7a8cf34c9
+      target:
+        id: 32f5c46d-f30e-4932-b349-133fa31c509b
+      z: 1
+    5d3ba718-31d7-43e7-8743-7fa7244deeb6:
+      source:
+        id: 309fd17c-545b-4101-b581-e2f7a8cf34c9
+      target:
+        id: 1995e47a-1213-4e7b-a083-62f5a82a90f4
+      z: 1
+    0feb2347-0cf7-4fcc-93b2-076d40159c8d:
+      source:
+        id: 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+      target:
+        id: af7c6a35-b740-4cb0-b752-4f3f2efa60d3
+      z: 1
+    2ebe013c-043b-461c-8a8c-b59fa0877e0d:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 3150
+        'y': 30
+      z: 1
+      embeds: []
+      isassociatedwith:
+        - af7c6a35-b740-4cb0-b752-4f3f2efa60d3
+      iscontainedinside:
+        - 309fd17c-545b-4101-b581-e2f7a8cf34c9
+    1104d7e5-2329-4a8c-bca9-998525b17c05:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 360
+        'y': 450
+      z: 1
+      embeds: []
+    df484434-b3b0-4ae1-b731-a7357c2a4ec8:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1320
+        'y': 150
+      z: 1
+      embeds: []
+    93a2f58d-fced-4fd8-9942-10a4b721b7b7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 1470
+        'y': 150
+      z: 1
+      embeds: []
+Resources:
+  SelenoidASLaunchConfig:
+    Type: 'AWS::AutoScaling::LaunchConfiguration'
+    Properties:
+      AssociatePublicIpAddress: true
+      IamInstanceProfile: !Ref SelenoidProfile
+      ImageId: ami-0fac5486e4cff37f4
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref Keys
+      LaunchConfigurationName: !Sub 'corp-${Environment}-selenoid-launch-configuration'
+      SecurityGroups:
+        - !Ref SelenoidSG
+      UserData:
+        'Fn::Base64': !Sub >
+          #cloud-boothook #!/bin/bash
+
+          yum install -y
+
+          https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+          yum update -y
+
+          yum install -y wget
+
+          yum install -y jq
+
+          yum install -y awscli
+
+          yum install -y ruby
+
+          yum install -y bash-completion
+
+          yum install -y curl
+
+          yum install -y vim
+
+          yum install -y htop
+
+          yum install -y httpd-tools.x86_64
+
+          yum install -y linux_logo
+
+          yum install -y python3
+
+          yum install -y python36-pip.noarch
+
+          pip3 install awscli --upgrade --quiet
+
+          pip3 install requests --upgrade --quiet
+
+          pip3 install boto3 --upgrade --quiet
+
+          aws s3 cp s3://<REPLACE THIS TO BUCKET NAME or Create PARAMETER:>/s3_userconfig.sh
+          /tmp/s3_userconfig.sh
+
+          echo ECS_CLUSTER="${ClusterName}" >> /etc/ecs/ecs.config;echo
+          ECS_BACKEND_HOST= >> /etc/ecs/ecs.config;
+
+          cat > /etc/systemd/system/ggrman.service << EOF
+
+          [Unit]
+           Description=ggrman ECS Handler
+          [Service]
+
+          Type=simple
+
+          User=root
+
+          ExecStart=/usr/bin/python3 /opt/ggrman/handler.py
+
+          WorkingDirectory=/opt/ggrman/
+
+          Restart=always
+
+          RestartSec=2
+
+          [Install]
+
+          WantedBy=multi-user.target
+
+          EOF
+
+          /tmp/s3_userconfig.sh
+
+          chmod +x /tmp/s3_userconfig.sh
+
+          sh /tmp/s3_userconfig.sh 
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9790ef12-9702-48ce-a36b-42032fd1437c
+  SelenoidFatService:
+    Type: 'AWS::ECS::Service'
+    Properties:
+      Cluster: !Ref ClusterName
+      DesiredCount: !Ref TasksCount
+      LaunchType: EC2
+      ServiceName: !Sub 'ServiceFat-${Environment}'
+      TaskDefinition: !Ref SelenoidFatTaskDefinition
+      SchedulingStrategy: REPLICA
+      ServiceRegistries:
+        - RegistryArn: !GetAtt ServiceDiscovery.Arn
+          ContainerName: !Ref AppNameFat
+          ContainerPort: 4444
+      LoadBalancers:
+        - ContainerPort: 8080
+          ContainerName: !Ref AppNameUI
+          TargetGroupArn: !Ref SelenoidTargetGroup8080
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2ab321d7-f41f-4b84-b13a-1cede5672092
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+      - SelenoidTargetGroup8080
+      - SelenoidTargetGroup4445
+  SelenoidGGRService:
+    Type: 'AWS::ECS::Service'
+    Properties:
+      Cluster: !Ref ClusterName
+      DesiredCount: 1
+      LaunchType: EC2
+      SchedulingStrategy: REPLICA
+      ServiceName: !Sub 'ServiceGGR-${Environment}'
+      TaskDefinition: !Ref SelenoidGGRTaskDefinition
+      LoadBalancers:
+        - ContainerPort: 4445
+          ContainerName: !Ref AppNameGGR
+          TargetGroupArn: !Ref SelenoidTargetGroup4445
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0b2ccb39-77ec-4a05-8294-2febf8790680
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+      - SelenoidTargetGroup8080
+      - SelenoidTargetGroup8888
+      - SelenoidTargetGroup4445
+  SelenoidGGRUIService:
+    Type: 'AWS::ECS::Service'
+    Properties:
+      Cluster: !Ref ClusterName
+      DesiredCount: 1
+      LaunchType: EC2
+      SchedulingStrategy: REPLICA
+      ServiceName: !Sub 'ServiceGGRUI-${Environment}'
+      TaskDefinition: !Ref SelenoidGGRUITaskDefinition
+      LoadBalancers:
+        - ContainerPort: 8888
+          ContainerName: !Ref AppNameGGRUI
+          TargetGroupArn: !Ref SelenoidTargetGroup8888
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0b2ccb39-77ec-4a05-8294-2febf8790680
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+      - SelenoidTargetGroup8080
+      - SelenoidTargetGroup8888
+      - SelenoidTargetGroup4445    
+  SelenoidFatTaskDefinition:
+    Type: 'AWS::ECS::TaskDefinition'
+    Properties:
+      NetworkMode: bridge
+      ContainerDefinitions:
+        - Name: !Ref AppNameFat
+          MountPoints:
+            - SourceVolume: browsers
+              ContainerPath: /etc/selenoid/browsers.json
+              ReadOnly: false
+            - SourceVolume: docker-sock
+              ContainerPath: /var/run/docker.sock
+          Image: !Sub '${AWS::AccountId}.dkr.ecr.us-east-1.amazonaws.com/selenoidfat'
+          PortMappings:
+            - ContainerPort: 4444
+              HostPort: 4444
+              Protocol: tcp
+          Command:
+            - '-limit'
+            - !Sub '${TasksPerInstance}'
+            - '-conf'
+            - /etc/selenoid/browsers.json
+            - '-listen'
+            - '0.0.0.0:4444'
+        - Name: !Ref AppNameUI
+          Image: !Sub '${AWS::AccountId}.dkr.ecr.us-east-1.amazonaws.com/selenoidui'
+          Links:
+            - !Ref AppNameFat
+          PortMappings:
+            - ContainerPort: 8080
+              HostPort: 8080
+              Protocol: tcp
+          Command:
+            - '--selenoid-uri'
+            - !Sub 'http://${AppNameFat}:4444'
+      Volumes:
+        - Host:
+            SourcePath: /tmp/browsers.json
+          Name: browsers
+        - Host:
+            SourcePath: /var/run/docker.sock
+          Name: docker-sock
+      Memory: '512'
+      Cpu: '256'
+      Family: !Ref AppNameFat
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 90f87380-9eaa-4714-865d-f4821f8319d9
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidGGRTaskDefinition:
+    Type: 'AWS::ECS::TaskDefinition'
+    Properties:
+      NetworkMode: bridge
+      ContainerDefinitions:
+        - Name: !Ref AppNameGGR
+          MountPoints:
+            - SourceVolume: grid-router
+              ContainerPath: /etc/grid-router
+              ReadOnly: false
+          Image: !Sub '${AWS::AccountId}.dkr.ecr.us-east-1.amazonaws.com/selenoidggr'
+          PortMappings:
+            - ContainerPort: 4445
+              HostPort: 4445
+              Protocol: tcp
+          Command:
+            - '-listen'
+            - '0.0.0.0:4445'
+            - '-timeout'
+            - 20s
+      Volumes:
+        - Host:
+            SourcePath: /etc/grid-router
+          Name: grid-router
+      Memory: '512'
+      Cpu: '256'
+      Family: !Ref AppNameGGR
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 62e30936-4699-4199-be48-4b24e8f77587
+  SelenoidGGRUITaskDefinition:
+    Type: 'AWS::ECS::TaskDefinition'
+    Properties:
+      NetworkMode: bridge
+      ContainerDefinitions:
+        - Name: !Ref AppNameGGRUI
+          MountPoints:
+            - SourceVolume: grid-quota
+              ContainerPath: /etc/grid-router/quota
+              ReadOnly: true
+          Image: !Sub '${AWS::AccountId}.dkr.ecr.us-east-1.amazonaws.com/selenoidggrui'
+          PortMappings:
+            - ContainerPort: 8888
+              HostPort: 8888
+              Protocol: tcp
+      Volumes:
+        - Host:
+            SourcePath: /etc/grid-router/quota
+          Name: grid-quota
+      Memory: '512'
+      Cpu: '256'
+      Family: !Ref AppNameGGRUI
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 62e30936-4699-4199-be48-4b24e8f77587      
+  SelenoidAutoScaling:
+    Type: 'AWS::AutoScaling::AutoScalingGroup'
+    Properties:
+      AutoScalingGroupName: !Sub 'corp-${Environment}-selenoid-auto-scaling-group'
+      LaunchConfigurationName: !Ref SelenoidASLaunchConfig
+      DesiredCapacity: !Ref ClusterCapacity
+      TargetGroupARNs:
+        - !Ref SelenoidTargetGroup8080
+      MaxSize: '50'
+      MinSize: '1'
+      VPCZoneIdentifier:
+        - !Ref SelenoidSubnet01
+        - !Ref SelenoidSubnet02
+      Tags:
+        - Key: Name
+          PropagateAtLaunch: true
+          Value: !Sub 'corp-${Environment}-selenoidfat'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0c8c41be-04a5-4e23-ad73-c99ef50fca38
+  ECSCluster:
+    Type: 'AWS::ECS::Cluster'
+    Properties:
+      ClusterName: !Ref ClusterName
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d341fa70-5f84-49ed-a05a-7b4fc5e12809
+    DependsOn:
+      - SelenoidVPC
+  SelenoidListener4445:
+    Type: 'AWS::ElasticLoadBalancingV2::Listener'
+    Properties:
+      DefaultActions:
+        - TargetGroupArn: !Ref SelenoidTargetGroup4445
+          Type: forward
+      LoadBalancerArn: !Ref SelenoidElasticLoadBalancer
+      Port: 4445
+      Protocol: HTTP
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 23147bc1-5122-40f1-8e3e-eafbe69c3ded
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidListener8888:
+    Type: 'AWS::ElasticLoadBalancingV2::Listener'
+    Properties:
+      DefaultActions:
+        - TargetGroupArn: !Ref SelenoidTargetGroup8888
+          Type: forward
+      LoadBalancerArn: !Ref SelenoidElasticLoadBalancer
+      Port: 8443
+      Protocol: HTTP
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 23147bc1-5122-40f1-8e3e-eafbe69c3ded
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidListener8080:
+    Type: 'AWS::ElasticLoadBalancingV2::Listener'
+    Properties:
+      DefaultActions:
+        - TargetGroupArn: !Ref SelenoidTargetGroup8080
+          Type: forward
+      LoadBalancerArn: !Ref SelenoidElasticLoadBalancer
+      Port: 8080
+      Protocol: HTTP
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 15920d01-1839-42b8-86cd-fa628ea80da9
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidElasticLoadBalancer:
+    Type: 'AWS::ElasticLoadBalancingV2::LoadBalancer'
+    Properties:
+      IpAddressType: ipv4
+      Name: !Sub 'corp-${Environment}-selen-lb'
+      Scheme: internet-facing
+      Subnets:
+        - !Ref SelenoidSubnet01
+        - !Ref SelenoidSubnet02
+      SecurityGroups:
+        - !Ref SelenoidSG
+      Type: application
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub 'corp-${Environment}-selen-lb'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3d88854d-b35b-46bb-8fd3-cfaf7ebcd1ee
+    DependsOn:
+      - ECSCluster
+  SelenoidTargetGroup4445:
+    Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
+    Properties:
+      HealthCheckEnabled: true
+      HealthCheckIntervalSeconds: 30
+      HealthCheckPath: /ping
+      HealthCheckPort: '4445'
+      HealthCheckProtocol: HTTP
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 3
+      Name: !Sub 'corp-${Environment}-sel-4445'
+      Port: 4445
+      Protocol: HTTP
+      TargetType: instance
+      VpcId: !Ref SelenoidVPC
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub 'corp-${Environment}-sel-4445'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 82a64c60-e9b1-4128-acad-47289a26edb1
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidTargetGroup8888:
+    Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
+    Properties:
+      HealthCheckEnabled: true
+      HealthCheckIntervalSeconds: 30
+      HealthCheckPath: /status
+      HealthCheckPort: '8888'
+      HealthCheckProtocol: HTTP
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 3
+      Name: !Sub 'corp-${Environment}-sel-8888'
+      Port: 8888
+      Protocol: HTTP
+      TargetType: instance
+      VpcId: !Ref SelenoidVPC
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub 'corp-${Environment}-sel-8888'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 82a64c60-e9b1-4128-acad-47289a26edb1
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidTargetGroup8080:
+    Type: 'AWS::ElasticLoadBalancingV2::TargetGroup'
+    Properties:
+      HealthCheckEnabled: true
+      HealthCheckIntervalSeconds: 30
+      HealthCheckPath: /
+      HealthCheckPort: '8080'
+      HealthCheckProtocol: HTTP
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 3
+      Name: !Sub 'corp-${Environment}-sel-8080'
+      Port: 8080
+      Protocol: HTTP
+      TargetType: instance
+      VpcId: !Ref SelenoidVPC
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub 'corp-${Environment}-sel-8080'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 92da5613-cf65-4cd8-9c43-256f965a4b35
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidSG:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupName: !Sub 'SelenoidSG-${Environment}'
+      GroupDescription: Security Group for Selenoid stack
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 0
+          ToPort: 65535
+          CidrIp: !GetAtt SelenoidVPC.CidrBlock
+        - IpProtocol: tcp
+          FromPort: 8080
+          ToPort: 8080
+          CidrIp: 11.11.11.11/32
+        - IpProtocol: tcp
+          FromPort: 4444
+          ToPort: 4444
+          CidrIp: 11.11.11.11/32
+        - IpProtocol: tcp
+          FromPort: 8443
+          ToPort: 8443
+          CidrIp: 11.11.11.11/32  
+        - IpProtocol: tcp
+          FromPort: 4445
+          ToPort: 4445
+          CidrIp: 11.11.11.11/32
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 11.11.11.11/32
+        - IpProtocol: tcp
+          FromPort: 0
+          ToPort: 65535
+          CidrIp: !Sub '${LabDevNATIP}/32'
+        - IpProtocol: tcp
+          FromPort: 0
+          ToPort: 65535
+          CidrIp: !Sub '${JenkinsElasticIP}/32'
+        - IpProtocol: tcp
+          FromPort: 0
+          ToPort: 65535
+          CidrIp: !Sub '${LabQaNATIP}/32'
+      VpcId: !Ref SelenoidVPC
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub 'SelenoidSG-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: cfc423d5-7067-4f9f-a156-e990ea59e951
+  SelenoidInstancesRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      RoleName: !Sub 'SelenoidInstancesRole-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 10a4a860-e61b-2312-beb1-214df406f943
+  SelenoidProfile:
+    Type: 'AWS::IAM::InstanceProfile'
+    Properties:
+      Path: /
+      Roles:
+        - !Ref SelenoidInstancesRole
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 10a4a860-e61b-4312-beb1-214df406f943
+  SelenoidS3Policy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidS3-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Sid: VisualEditor0
+            Effect: Allow
+            Action:
+              - 's3:PutAccountPublicAccessBlock'
+              - 's3:GetAccountPublicAccessBlock'
+              - 's3:ListAllMyBuckets'
+              - 's3:HeadBucket'
+            Resource: '*'
+          - Sid: VisualEditor1
+            Effect: Allow
+            Action: 's3:*'
+            Resource:
+              - 'arn:aws:s3:::*/*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 858d4ae8-4fc6-43fe-90b2-f42d6797adca
+  SelenoidECSPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidECSPolicy-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 'application-autoscaling:DeleteScalingPolicy'
+              - 'application-autoscaling:DeregisterScalableTarget'
+              - 'application-autoscaling:DescribeScalableTargets'
+              - 'application-autoscaling:DescribeScalingActivities'
+              - 'application-autoscaling:DescribeScalingPolicies'
+              - 'application-autoscaling:PutScalingPolicy'
+              - 'application-autoscaling:RegisterScalableTarget'
+              - 'autoscaling:UpdateAutoScalingGroup'
+              - 'autoscaling:CreateAutoScalingGroup'
+              - 'autoscaling:CreateLaunchConfiguration'
+              - 'autoscaling:DeleteAutoScalingGroup'
+              - 'autoscaling:DeleteLaunchConfiguration'
+              - 'autoscaling:Describe*'
+              - 'cloudformation:CreateStack'
+              - 'cloudformation:DeleteStack'
+              - 'cloudformation:DescribeStack*'
+              - 'cloudformation:UpdateStack'
+              - 'cloudwatch:DescribeAlarms'
+              - 'cloudwatch:DeleteAlarms'
+              - 'cloudwatch:GetMetricStatistics'
+              - 'cloudwatch:PutMetricAlarm'
+              - 'sns:ListTopics'
+              - 'ec2:AssociateRouteTable'
+              - 'ec2:AttachInternetGateway'
+              - 'ec2:AuthorizeSecurityGroupIngress'
+              - 'ec2:RevokeSecurityGroupIngress'
+              - 'ec2:CancelSpotFleetRequests'
+              - 'ec2:CreateInternetGateway'
+              - 'ec2:CreateLaunchTemplate'
+              - 'ec2:CreateRoute'
+              - 'ec2:CreateRouteTable'
+              - 'ec2:CreateSecurityGroup'
+              - 'ec2:CreateSubnet'
+              - 'ec2:CreateVpc'
+              - 'ec2:DeleteLaunchTemplate'
+              - 'ec2:DeleteSubnet'
+              - 'ec2:DeleteVpc'
+              - 'ec2:Describe*'
+              - 'ec2:DetachInternetGateway'
+              - 'ec2:DisassociateRouteTable'
+              - 'ec2:ModifySubnetAttribute'
+              - 'ec2:ModifyVpcAttribute'
+              - 'ec2:RunInstances'
+              - 'ec2:RequestSpotFleet'
+              - 'elasticloadbalancing:CreateListener'
+              - 'elasticloadbalancing:CreateLoadBalancer'
+              - 'elasticloadbalancing:CreateRule'
+              - 'elasticloadbalancing:CreateTargetGroup'
+              - 'elasticloadbalancing:DeleteListener'
+              - 'elasticloadbalancing:DeleteLoadBalancer'
+              - 'elasticloadbalancing:DeleteRule'
+              - 'elasticloadbalancing:DeleteTargetGroup'
+              - 'elasticloadbalancing:DescribeListeners'
+              - 'elasticloadbalancing:DescribeLoadBalancers'
+              - 'elasticloadbalancing:DescribeRules'
+              - 'elasticloadbalancing:DescribeTargetGroups'
+              - 'ecs:*'
+              - 'events:DescribeRule'
+              - 'events:DeleteRule'
+              - 'events:ListRuleNamesByTarget'
+              - 'events:ListTargetsByRule'
+              - 'events:PutRule'
+              - 'events:PutTargets'
+              - 'events:RemoveTargets'
+              - 'iam:ListAttachedRolePolicies'
+              - 'iam:ListInstanceProfiles'
+              - 'iam:ListRoles'
+              - 'logs:CreateLogGroup'
+              - 'logs:DescribeLogGroups'
+              - 'logs:FilterLogEvents'
+              - 'route53:GetHostedZone'
+              - 'route53:ListHostedZonesByName'
+              - 'route53:CreateHostedZone'
+              - 'route53:DeleteHostedZone'
+              - 'route53:GetHealthCheck'
+              - 'servicediscovery:CreatePrivateDnsNamespace'
+              - 'servicediscovery:CreateService'
+              - 'servicediscovery:GetNamespace'
+              - 'servicediscovery:GetOperation'
+              - 'servicediscovery:GetService'
+              - 'servicediscovery:ListNamespaces'
+              - 'servicediscovery:ListInstances'
+              - 'servicediscovery:ListServices'
+              - 'servicediscovery:UpdateService'
+              - 'servicediscovery:DeleteService'
+            Resource:
+              - '*'
+          - Effect: Allow
+            Action:
+              - 'ssm:GetParametersByPath'
+              - 'ssm:GetParameters'
+              - 'ssm:GetParameter'
+            Resource: 'arn:aws:ssm:*:*:parameter/aws/service/ecs*'
+          - Effect: Allow
+            Action:
+              - 'ec2:DeleteInternetGateway'
+              - 'ec2:DeleteRoute'
+              - 'ec2:DeleteRouteTable'
+              - 'ec2:DeleteSecurityGroup'
+            Resource:
+              - '*'
+            Condition:
+              StringLike:
+                'ec2:ResourceTag/aws:cloudformation:stack-name': EC2ContainerService-*
+          - Action: 'iam:PassRole'
+            Effect: Allow
+            Resource:
+              - '*'
+            Condition:
+              StringLike:
+                'iam:PassedToService': ecs-tasks.amazonaws.com
+          - Action: 'iam:PassRole'
+            Effect: Allow
+            Resource:
+              - 'arn:aws:iam::*:role/ecsInstanceRole*'
+            Condition:
+              StringLike:
+                'iam:PassedToService':
+                  - ec2.amazonaws.com
+                  - ec2.amazonaws.com.cn
+          - Action: 'iam:PassRole'
+            Effect: Allow
+            Resource:
+              - 'arn:aws:iam::*:role/ecsAutoscaleRole*'
+            Condition:
+              StringLike:
+                'iam:PassedToService':
+                  - application-autoscaling.amazonaws.com
+                  - application-autoscaling.amazonaws.com.cn
+          - Effect: Allow
+            Action: 'iam:CreateServiceLinkedRole'
+            Resource: '*'
+            Condition:
+              StringLike:
+                'iam:AWSServiceName':
+                  - ecs.amazonaws.com
+                  - spot.amazonaws.com
+                  - spotfleet.amazonaws.com
+                  - ecs.application-autoscaling.amazonaws.com
+                  - autoscaling.amazonaws.com
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: fa81de61-3e60-4fd1-a3d0-47b0b11db62b
+  SelenoidSSMPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidSSMPolicy-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 'cloudwatch:PutMetricData'
+              - 'ds:CreateComputer'
+              - 'ds:DescribeDirectories'
+              - 'ec2:DescribeInstanceStatus'
+              - 'logs:*'
+              - 'ssm:*'
+              - 'ec2messages:*'
+            Resource: '*'
+          - Effect: Allow
+            Action: 'iam:CreateServiceLinkedRole'
+            Resource: >-
+              arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/AWSServiceRoleForAmazonSSM*
+            Condition:
+              StringLike:
+                'iam:AWSServiceName': ssm.amazonaws.com
+          - Effect: Allow
+            Action:
+              - 'iam:DeleteServiceLinkedRole'
+              - 'iam:GetServiceLinkedRoleDeletionStatus'
+            Resource: >-
+              arn:aws:iam::*:role/aws-service-role/ssm.amazonaws.com/AWSServiceRoleForAmazonSSM*
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 997c8ddb-b9dd-4471-ab5e-7a7c51d438da
+  SelenoidTagPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidTagPolicy-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action: 'ec2:DescribeTags'
+            Resource: '*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 63fba481-db6f-4b57-9425-6914d4d677ad
+  SelenoidIAMPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidIAMPolicy-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action:
+              - 'iam:GetPolicyVersion'
+              - 'iam:ListRoleTags'
+              - 'iam:ListServiceSpecificCredentials'
+              - 'iam:ListMFADevices'
+              - 'iam:ListSigningCertificates'
+              - 'iam:GetGroup'
+              - 'iam:GetContextKeysForPrincipalPolicy'
+              - 'iam:ListInstanceProfilesForRole'
+              - 'iam:GetServiceLinkedRoleDeletionStatus'
+              - 'iam:ListSSHPublicKeys'
+              - 'iam:SimulatePrincipalPolicy'
+              - 'iam:ListAttachedRolePolicies'
+              - 'iam:ListAttachedUserPolicies'
+              - 'iam:ListAttachedGroupPolicies'
+              - 'iam:ListRolePolicies'
+              - 'iam:ListAccessKeys'
+              - 'iam:GetRole'
+              - 'iam:GetInstanceProfile'
+              - 'iam:GetPolicy'
+              - 'iam:ListGroupPolicies'
+              - 'iam:GetAccessKeyLastUsed'
+              - 'iam:GetSSHPublicKey'
+              - 'iam:ListEntitiesForPolicy'
+              - 'iam:ListUserPolicies'
+              - 'iam:ListInstanceProfiles'
+              - 'iam:ListPolicyVersions'
+              - 'iam:GetUserPolicy'
+              - 'iam:ListGroupsForUser'
+              - 'iam:GetGroupPolicy'
+              - 'iam:GetUser'
+              - 'iam:GetOpenIDConnectProvider'
+              - 'iam:GetRolePolicy'
+              - 'iam:GetLoginProfile'
+              - 'iam:ListUserTags'
+            Resource:
+              - 'arn:aws:iam::*:policy/*'
+          - Sid: VisualEditor1
+            Effect: Allow
+            Action:
+              - 'iam:GenerateCredentialReport'
+              - 'iam:ListPolicies'
+              - 'iam:GetAccountPasswordPolicy'
+              - 'iam:ListSAMLProviders'
+              - 'iam:GetServiceLastAccessedDetailsWithEntities'
+              - 'iam:ListServerCertificates'
+              - 'iam:GenerateServiceLastAccessedDetails'
+              - 'iam:ListPoliciesGrantingServiceAccess'
+              - 'iam:ListRoles'
+              - 'iam:GetServiceLastAccessedDetails'
+              - 'iam:ListVirtualMFADevices'
+              - 'iam:GetContextKeysForCustomPolicy'
+              - 'iam:SimulateCustomPolicy'
+              - 'iam:ListOpenIDConnectProviders'
+              - 'iam:ListAccountAliases'
+              - 'iam:ListUsers'
+              - 'iam:ListGroups'
+              - 'iam:GetAccountAuthorizationDetails'
+              - 'iam:GetCredentialReport'
+              - 'iam:GetAccountSummary'
+            Resource: '*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: dbc82992-450e-4f0d-b430-b7470145e093
+  SelenoidTokenPolicy:
+    Type: 'AWS::IAM::Policy'
+    Properties:
+      PolicyName: !Sub 'SelenoidTokenPolicy-${Environment}'
+      Roles:
+        - !Ref SelenoidInstancesRole
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Action: 'ecr:InitiateLayerUpload'
+            Resource: 'arn:aws:ecr:*:*:repository/*'
+          - Effect: Allow
+            Action:
+              - 'ecr:CreateRepository'
+              - 'ecr:GetAuthorizationToken'
+            Resource: '*'
+          - Effect: Allow
+            Action: 'ecr:*'
+            Resource: 'arn:aws:ecr:*:*:repository/*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: f22945ee-5647-42c4-8513-28f519e3f34e
+  ServiceDiscovery:
+    Type: 'AWS::ServiceDiscovery::Service'
+    Properties:
+      Description: Service for ECS Selenoid FAT
+      Name: !Sub 'ServiceFat-${Environment}'
+      NamespaceId: !Ref PrivateNamespace
+      HealthCheckCustomConfig:
+        FailureThreshold: 1
+      DnsConfig:
+        RoutingPolicy: MULTIVALUE
+        DnsRecords:
+          - TTL: 60
+            Type: SRV
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a7675700-1ab0-48d4-9ceb-cf5cd6465c57
+  PrivateNamespace:
+    Type: 'AWS::ServiceDiscovery::PrivateDnsNamespace'
+    Properties:
+      Vpc: !Ref SelenoidVPC
+      Name: !Sub '${Namespace}-${Environment}'
+      Description: Private Service DNS
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7c199023-3531-4cdf-8c9c-aedcbdd5b10a
+  SelenoidDNSZone:
+    Type: 'AWS::Route53::RecordSet'
+    Properties:
+      AliasTarget:
+        DNSName: !GetAtt SelenoidElasticLoadBalancer.DNSName
+        HostedZoneId: <Enter your record id>
+      HostedZoneId: !Ref HostedZoneId
+      Name: !Ref DNSSelenoidname
+      Type: A
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 7988f9e8-2d6e-414c-8000-14aaceba6533
+    DependsOn:
+      - SelenoidElasticLoadBalancer
+  SelenoidVPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 11.11.11.11/23
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+      Tags:
+        - Key: Name
+          Value: SelenoidVPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4e2ebcea-7fc9-4ffd-bf03-5afad06dbe47
+  SelenoidSubnet01:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref SelenoidVPC
+      AvailabilityZone: us-east-1a
+      CidrBlock: 11.11.11.11/24
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub 'SelenoidSubnet01-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 32f5c46d-f30e-4932-b349-133fa31c509b
+  SelenoidSubnet02:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref SelenoidVPC
+      AvailabilityZone: us-east-1b
+      CidrBlock: 11.11.11.11/24
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: !Sub 'SelenoidSubnet02-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1995e47a-1213-4e7b-a083-62f5a82a90f4
+  SelenoidRouteTable:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref SelenoidVPC
+      Tags:
+        - Key: Name
+          Value: !Sub 'SelenoidRouteTable-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 309fd17c-545b-4101-b581-e2f7a8cf34c9
+  SelenoidGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Sub 'SelenoidIGW-${Environment}'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: af7c6a35-b740-4cb0-b752-4f3f2efa60d3
+  SelenoidRouteTableAssociation01:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      SubnetId: !Ref SelenoidSubnet01
+      RouteTableId: !Ref SelenoidRouteTable
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ace6a1cc-63af-47d8-b255-705dc7ba5641
+  SelenoidRouteTableAssociation02:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      RouteTableId: !Ref SelenoidRouteTable
+      SubnetId: !Ref SelenoidSubnet02
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5d3ba718-31d7-43e7-8743-7fa7244deeb6
+  VPCGatewayAttachment:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      VpcId: !Ref SelenoidVPC
+      InternetGatewayId: !Ref SelenoidGateway
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0feb2347-0cf7-4fcc-93b2-076d40159c8d
+  SelenoidRouteInternet:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      RouteTableId: !Ref SelenoidRouteTable
+      GatewayId: !Ref SelenoidGateway
+      DestinationCidrBlock: 0.0.0.0/0
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2ebe013c-043b-461c-8a8c-b59fa0877e0d
+  SecuritySGDEV:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupName: !Sub corp-DEV-from-selenoid-hosts-sg
+      GroupDescription: Security Group for lab and DB connections from Selenoid Hosts.
+      VpcId: !Ref VPCSGDev
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub corp-DEV-from-selenoid-hosts-sg
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: df484434-b3b0-4ae1-b731-a7357c2a4ec8
+  SecuritySGQA:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupName: !Sub corp-QA-from-selenoid-hosts-sg
+      GroupDescription: Security Group for lab and DB connections from Selenoid Hosts.
+      VpcId: !Ref VPCSGQa
+      Tags:
+        - Key: Stage
+          Value: !Ref Environment
+        - Key: Name
+          Value: !Sub corp-QA-from-selenoid-hosts-sg
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 93a2f58d-fced-4fd8-9942-10a4b721b7b7
+Parameters:
+  Keys:
+    Type: 'AWS::EC2::KeyPair::KeyName'
+    Description: KeyPair Name
+    Default: dev
+  VPCSGDev:
+    Type: 'AWS::EC2::VPC::Id'
+    Description: Enter DEV VPC for lab and DB connections from Selenoid Hosts.
+  VPCSGQa:
+    Type: 'AWS::EC2::VPC::Id'
+    Description: Enter DEV VPC for lab and DB connections from Selenoid Hosts.
+  TasksCount:
+    Type: Number
+    Description: >-
+      Selenoid Tasks fo cluster, 1 selenoid task per cluster node, if you have 5
+      nodes Tasks Count must be 5
+    Default: '2'
+  InstanceType:
+    Type: String
+    Description: >-
+      5 tasks maximum per 2 Core and 4Gb RAM, please calculate appropriate
+      cluster size
+    Default: t2.medium
+    AllowedValues:
+      - t2.medium
+      - t2.xlarge
+      - t2.2xlarge
+  ClusterCapacity:
+    Type: String
+    Default: '2'
+    Description: 'Size of cluster, one t2.medium node for 5 tasks'
+  TasksPerInstance:
+    Type: Number
+    Default: '5'
+    Description: 'Selenoid tasks per Cluster node. Default: 5'
+  DNSSelenoidname:
+    Type: String
+    Description: 'Full name of new DNS Record, include "." on the end'
+    Default: selenoid.lab.com.
+  HostedZoneId:
+    Type: 'AWS::Route53::HostedZone::Id'
+  ClusterName:
+    Description: Selenoid Cluster Name
+    Type: String
+    Default: SelenoidCluster-dev
+    AllowedValues:
+      - SelenoidCluster-dev
+      - SelenoidCluster-qa
+      - SelenoidCluster-uat
+      - SelenoidCluster-sbx
+      - SelenoidCluster-prd
+  ServiceName:
+    Description: Selenoid FAT Name
+    Type: String
+    Default: selenoidfat-dev
+    AllowedValues:
+      - selenoidfat-dev
+      - selenoidfat-qa
+      - selenoidfat-uat
+      - selenoidfat-sbx
+      - selenoidfat-prd
+  Environment:
+    Description: 'Env type: Dev, QA, Prod, etc.'
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - qa
+      - uat
+      - prd
+  Namespace:
+    Type: String
+    Description: Namespace for selenoid services
+    Default: selenoid
+  AppNameFat:
+    Type: String
+    Description: Name of container for Selenoid Chrome
+    Default: selenoidfat
+  AppNameUI:
+    Type: String
+    Description: Name of container for Selenoid UI
+    Default: selenoidui
+  AppNameGGR:
+    Type: String
+    Description: Name of container for Selenoid GGR
+    Default: selenoidggr
+  AppNameGGRUI:
+    Type: String
+    Description: Name of container for Selenoid GGRUI
+    Default: selenoidggrui
+  JenkinsElasticIP:
+    Type: String
+    Description: IP Address of Jenkins InstanceProfile
+    Default: 11.11.11.11
+  LabDevNATIP:
+    Type: String
+    Description: Elastic IP Address of DEV NAT subnets
+    Default: 11.11.11.11
+  LabQaNATIP:
+    Type: String
+    Description: Elastic IP Address of QA NAT subnets
+    Default: 11.11.11.11
